@@ -43,10 +43,26 @@ header {
 
 .wall {
     background-color: blue;
+    flex-grow: 1;
+    padding: 1em;
+    margin: 1em;
+    border: .1em solid black;
 }
 .feeded-features {
     background-color: black;
 }
 .test {
     background-color: brown;
+}
+
+.list {
+    list-style: none;
+    padding: 1em 0 1em 0;
+    margin: 0;
+}
+.events {
+    width: 2em; /*width of your image*/
+    background-image: url("./images/events.jpg");
+    margin: 0; /* If you want no margin */
+    padding: 0; /*if your want to padding */
 }
